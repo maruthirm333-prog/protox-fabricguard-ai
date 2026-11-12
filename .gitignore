@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Secrets and local config (never commit Wi-Fi passwords or API keys)
+.env
+*.env
+secrets.h
+wifi_credentials.h
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large or unlicensed data: check size and licence first (see docs/dataset-notes.md)
+dataset/raw/
+dataset/aitex/
+*.zip
